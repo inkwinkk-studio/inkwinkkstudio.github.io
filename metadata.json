@@ -1,0 +1,5 @@
+{
+  "name": "Ink Wink — Covers & Copy for Fantasy Authors",
+  "description": "Book covers and email copy for indie Fantasy and Romantasy authors on Amazon KDP.",
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
