@@ -1,0 +1,1779 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Fantasy & DnD Character Art | InkWink Studio</title>
+    <meta
+      name="description"
+      content="Get stunning custom fantasy character art, dnd character art, and concept designs for authors. Turn reader curiosity into Day-1 KDP revenue. Book today!"
+    />
+    <link rel="canonical" href="https://inkwink.studio/" />
+
+    <!-- Favicon Suite -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta name="theme-color" content="#12161a" />
+
+    <!-- Open Graph & Social Cards -->
+    <meta property="og:site_name" content="InkWink Studio" />
+    <meta property="og:title" content="Custom Fantasy & DnD Character Art | InkWink Studio" />
+    <meta
+      property="og:description"
+      content="Get stunning custom fantasy character art, dnd character art, and concept designs for authors. Turn reader curiosity into Day-1 KDP revenue. Book today!"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://inkwink.studio/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "InkWink Studio",
+        "url": "https://inkwink.studio",
+        "image": "https://inkwink.studio/favicon.svg",
+        "description": "Custom fantasy character art, dnd character illustrations, and high-converting book launch email sequences for indie authors on Amazon KDP.",
+        "email": "inkwinkk.studio@gmail.com",
+        "priceRange": "$80 - $500",
+        "sameAs": [
+          "https://www.instagram.com/inkwinkk.studio/",
+          "https://www.facebook.com/profile.php?id=61578688896807",
+          "https://www.linkedin.com/company/ink-winkk/home/"
+        ]
+      }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: "#12161a",
+              foreground: "#f3f4f6",
+              card: "#1a2027",
+              border: "rgba(255, 255, 255, 0.08)",
+              primary: {
+                DEFAULT: "#f97316",
+                foreground: "#12161a",
+                hover: "#ea580c",
+              },
+              muted: "#242c35",
+              "muted-foreground": "#9ca3af",
+            },
+            fontFamily: {
+              display: ["Anton", "Impact", "sans-serif"],
+              sans: ["Inter", "system-ui", "sans-serif"],
+              mono: ["JetBrains Mono", "monospace"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      body {
+        background-color: #12161a;
+        color: #f3f4f6;
+        font-family: "Inter", system-ui, sans-serif;
+        overflow-x: hidden;
+      }
+
+      .glass {
+        background: rgba(26, 32, 39, 0.7);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .eyebrow {
+        font-family: "JetBrains Mono", monospace;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+        font-weight: 600;
+      }
+
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      /* Floating WhatsApp Button Styling */
+      .wa-widget-container {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        z-index: 9999;
+        font-family: inherit;
+      }
+      .wa-popup-box {
+        display: none;
+        width: 280px;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        margin-bottom: 12px;
+        overflow: hidden;
+        animation: fadeIn 0.3s ease-in-out;
+      }
+      .wa-popup-header {
+        background: #075e54;
+        color: #ffffff;
+        padding: 12px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+      }
+      .wa-popup-body {
+        padding: 16px;
+        color: #333333;
+        font-size: 14px;
+        line-height: 1.4;
+      }
+      .wa-start-chat-btn {
+        display: block;
+        text-align: center;
+        background: #25d366;
+        color: #ffffff !important;
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none !important;
+        font-weight: bold;
+        margin-top: 12px;
+        transition: background-color 0.2s ease;
+      }
+      .wa-start-chat-btn:hover {
+        background: #20ba5a;
+      }
+      .inkwink-whatsapp-btn {
+        background-color: #25d366;
+        color: #ffffff;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 20px;
+        border-radius: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);
+        transition:
+          transform 0.25s ease,
+          background-color 0.25s ease;
+        margin-left: auto;
+      }
+      .inkwink-whatsapp-btn:hover {
+        background-color: #20ba5a;
+        transform: translateY(-2px);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 576px) {
+        .wa-widget-container {
+          bottom: 18px;
+          right: 18px;
+        }
+        .inkwink-whatsapp-btn span {
+          display: none;
+        }
+        .inkwink-whatsapp-btn {
+          padding: 14px;
+          border-radius: 50%;
+        }
+        .wa-popup-box {
+          width: 260px;
+        }
+      }
+
+      /* Back to top transition */
+      #backToTopBtn {
+        transition:
+          opacity 0.3s,
+          transform 0.3s;
+      }
+      #backToTopBtn.show {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+      #backToTopBtn.hide {
+        opacity: 0;
+        transform: translateY(16px);
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body
+    class="antialiased min-h-screen flex flex-col justify-between selection:bg-primary selection:text-white"
+  >
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-40 w-full glass border-b border-border">
+      <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between gap-4">
+        <a
+          href="#home"
+          class="font-display text-2xl tracking-wide flex items-center gap-1 shrink-0"
+        >
+          <span>INK</span>
+          <span class="text-primary">WINK</span>
+        </a>
+
+        <!-- Navigation Links -->
+        <nav
+          class="flex items-center gap-4 sm:gap-7 text-xs font-semibold uppercase tracking-wider text-muted-foreground overflow-x-auto no-scrollbar py-2"
+        >
+          <a href="#home" class="hover:text-foreground transition-colors shrink-0">Home</a>
+          <a href="#fantasy-art-studio" class="hover:text-foreground transition-colors shrink-0"
+            >Fantasy Art</a
+          >
+          <a href="#book-launch-emails" class="hover:text-foreground transition-colors shrink-0"
+            >Launch Emails</a
+          >
+          <a
+            href="#package-pricing"
+            class="hover:text-foreground transition-colors text-primary font-bold shrink-0"
+            >Pricing</a
+          >
+          <a href="#testimonials" class="hover:text-foreground transition-colors shrink-0"
+            >Testimonials</a
+          >
+          <a href="#questions" class="hover:text-foreground transition-colors shrink-0">FAQ</a>
+        </nav>
+
+        <div class="flex items-center gap-3 shrink-0">
+          <button
+            onclick="openLeadModal('Author Suite Package ($200–$500)')"
+            class="px-5 py-2.5 rounded-lg bg-primary text-primary-foreground font-semibold text-xs tracking-wider uppercase hover:bg-primary-hover transition-all shadow-md cursor-pointer whitespace-nowrap"
+          >
+            Book Free Launch Call
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="relative overflow-hidden py-24 md:py-32">
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-primary/10 via-transparent to-transparent pointer-events-none"
+        ></div>
+        <div class="relative max-w-6xl mx-auto px-6 text-center space-y-8">
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass border border-primary/30 text-xs font-mono text-primary"
+          >
+            <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            <span>The Hybrid Creative Studio for Indie Authors</span>
+          </div>
+
+          <h1
+            class="font-display uppercase text-5xl sm:text-7xl lg:text-8xl tracking-tight leading-[0.95] max-w-5xl mx-auto text-balance"
+          >
+            Launch a Book Readers Crave, <span class="text-primary">Without the Silence</span>
+          </h1>
+
+          <p
+            class="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto leading-relaxed text-pretty"
+          >
+            Turn reader curiosity into Day-1 Amazon KDP revenue. Scroll-stopping fantasy book
+            covers, viral character art, and spellbinding launch emails written for indie authors.
+          </p>
+
+          <div class="flex flex-wrap items-center justify-center gap-4 pt-4">
+            <button
+              onclick="openLeadModal('General Inquiry')"
+              class="px-8 py-4 rounded-lg bg-primary text-primary-foreground font-bold text-sm uppercase tracking-wider hover:bg-primary-hover transition-all shadow-xl hover:scale-105 cursor-pointer"
+            >
+              Book Free Launch Call
+            </button>
+            <a
+              href="#fantasy-art-studio"
+              class="px-8 py-4 rounded-lg glass border border-border hover:border-primary/50 text-foreground font-semibold text-sm uppercase tracking-wider transition-all hover:bg-white/5"
+            >
+              Explore Art Portfolio ↓
+            </a>
+          </div>
+
+          <!-- Proof Metrics Bar -->
+          <div
+            class="pt-12 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto border-t border-border/80"
+          >
+            <div class="p-4 rounded-xl glass">
+              <p class="font-display text-3xl sm:text-4xl text-primary font-bold">5.0 ★</p>
+              <p class="text-xs text-muted-foreground mt-1 uppercase font-mono">
+                Indie Author Rating
+              </p>
+            </div>
+            <div class="p-4 rounded-xl glass">
+              <p class="font-display text-3xl sm:text-4xl text-foreground font-bold">2.4x</p>
+              <p class="text-xs text-muted-foreground mt-1 uppercase font-mono">Avg KDP CTR Lift</p>
+            </div>
+            <div class="p-4 rounded-xl glass">
+              <p class="font-display text-3xl sm:text-4xl text-foreground font-bold">52%+</p>
+              <p class="text-xs text-muted-foreground mt-1 uppercase font-mono">
+                Launch Email Open Rate
+              </p>
+            </div>
+            <div class="p-4 rounded-xl glass">
+              <p class="font-display text-3xl sm:text-4xl text-primary font-bold">100%</p>
+              <p class="text-xs text-muted-foreground mt-1 uppercase font-mono">
+                KDP Print-Ready 300 DPI
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 1. FANTASY ART STUDIO -->
+      <section id="fantasy-art-studio" class="py-24 border-t border-border bg-card/30 scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-6 space-y-12">
+          <div
+            class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-border pb-8"
+          >
+            <div class="space-y-3 max-w-2xl">
+              <span class="eyebrow text-primary">01 · Visual Worldbuilding</span>
+              <h2 class="font-display uppercase text-4xl sm:text-5xl lg:text-6xl tracking-tight">
+                Fantasy Art Studio
+              </h2>
+              <p class="text-muted-foreground text-sm sm:text-base leading-relaxed">
+                Every piece is crafted to capture the nuance of your subgenre. Flat rates with full
+                commercial publishing rights for Amazon KDP, paperbacks, and digital promotions.
+              </p>
+            </div>
+            <button
+              onclick="openLeadModal('Fantasy Book Cover Art ($150)')"
+              class="shrink-0 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary-hover transition-all shadow-md"
+            >
+              Commission Custom Art
+            </button>
+          </div>
+
+          <!-- Rate Highlights Bar -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div
+              class="glass p-5 rounded-xl border border-primary/30 flex items-center justify-between"
+            >
+              <div>
+                <p class="text-xs text-muted-foreground">Fantasy Book Cover Art</p>
+                <p class="font-display text-3xl text-foreground font-bold">$150</p>
+              </div>
+              <span class="text-2xl">📖</span>
+            </div>
+
+            <div
+              class="glass p-5 rounded-xl border border-border flex items-center justify-between"
+            >
+              <div>
+                <p class="text-xs text-muted-foreground">Scene Concept Art</p>
+                <p class="font-display text-3xl text-foreground font-bold">$100</p>
+              </div>
+              <span class="text-2xl">🌄</span>
+            </div>
+
+            <div
+              class="glass p-5 rounded-xl border border-border flex items-center justify-between"
+            >
+              <div>
+                <p class="text-xs text-muted-foreground">Character Art Illustration</p>
+                <p class="font-display text-3xl text-foreground font-bold">$80</p>
+              </div>
+              <span class="text-2xl">⚔️</span>
+            </div>
+          </div>
+
+          <!-- Featured Artwork Gallery Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Item 1 -->
+            <div
+              class="glass rounded-xl border border-border overflow-hidden flex flex-col justify-between group hover:border-primary/50 transition-all"
+            >
+              <div class="relative overflow-hidden bg-black/40 aspect-[4/3]">
+                <img
+                  src="./src/assets/cover-something-worth-keeping.jpg"
+                  alt="Something Worth Keeping - Custom wraparound contemporary romance fantasy paperback book cover art for Amazon KDP by InkWink Studio"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                  onerror="this.src = './src/assets/hero-cover.jpg'"
+                />
+                <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+                  <span
+                    class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-black/75 backdrop-blur-md text-foreground border border-white/10"
+                    >Contemporary Romance / KDP</span
+                  >
+                  <span
+                    class="text-xs font-mono font-bold px-2.5 py-1 rounded-full bg-primary text-primary-foreground shadow-md"
+                    >$150</span
+                  >
+                </div>
+              </div>
+              <div class="p-5 flex items-center justify-between gap-3 border-t border-border/70">
+                <div>
+                  <h3 class="font-display uppercase text-lg text-foreground">
+                    Something Worth Keeping
+                  </h3>
+                  <p class="text-xs text-muted-foreground">Full Wraparound Paperback Cover</p>
+                </div>
+                <button
+                  onclick="openLeadModal('Something Worth Keeping Cover Style')"
+                  class="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
+                >
+                  ↗
+                </button>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div
+              class="glass rounded-xl border border-border overflow-hidden flex flex-col justify-between group hover:border-primary/50 transition-all"
+            >
+              <div class="relative overflow-hidden bg-black/40 aspect-[4/3]">
+                <img
+                  src="./src/assets/cover-special-agent-bridesmaid.jpg"
+                  alt="Special Agent Bridesmaid - Action romance full paperback novel book cover illustration by InkWink Studio"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+                  <span
+                    class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-black/75 backdrop-blur-md text-foreground border border-white/10"
+                    >Romantic Action Comedy</span
+                  >
+                  <span
+                    class="text-xs font-mono font-bold px-2.5 py-1 rounded-full bg-primary text-primary-foreground shadow-md"
+                    >$150</span
+                  >
+                </div>
+              </div>
+              <div class="p-5 flex items-center justify-between gap-3 border-t border-border/70">
+                <div>
+                  <h3 class="font-display uppercase text-lg text-foreground">
+                    Special Agent Bridesmaid
+                  </h3>
+                  <p class="text-xs text-muted-foreground">Full Wraparound Paperback Cover</p>
+                </div>
+                <button
+                  onclick="openLeadModal('Special Agent Bridesmaid Cover Style')"
+                  class="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
+                >
+                  ↗
+                </button>
+              </div>
+            </div>
+
+            <!-- Item 3: Character Art -->
+            <div
+              class="glass rounded-xl border border-border overflow-hidden flex flex-col justify-between group hover:border-primary/50 transition-all"
+            >
+              <div class="relative overflow-hidden bg-black/40 aspect-[4/3]">
+                <img
+                  src="./src/assets/images/vampire_suit_character_1791649669972.jpg"
+                  alt="Dorian, The Velvet Fang - Paranormal romance vampire bad boy character art illustration by InkWink Studio"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+                  <span
+                    class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-black/75 backdrop-blur-md text-foreground border border-white/10"
+                    >Paranormal / Vampire Romance</span
+                  >
+                  <span
+                    class="text-xs font-mono font-bold px-2.5 py-1 rounded-full bg-primary text-primary-foreground shadow-md"
+                    >$80</span
+                  >
+                </div>
+              </div>
+              <div class="p-5 flex items-center justify-between gap-3 border-t border-border/70">
+                <div>
+                  <h3 class="font-display uppercase text-lg text-foreground">
+                    Dorian, The Velvet Fang
+                  </h3>
+                  <p class="text-xs text-muted-foreground">Fantasy Character Illustration</p>
+                </div>
+                <button
+                  onclick="openLeadModal('Dorian Character Illustration ($80)')"
+                  class="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
+                >
+                  ↗
+                </button>
+              </div>
+            </div>
+
+            <!-- Item 4: Character Art 2 -->
+            <div
+              class="glass rounded-xl border border-border overflow-hidden flex flex-col justify-between group hover:border-primary/50 transition-all"
+            >
+              <div class="relative overflow-hidden bg-black/40 aspect-[4/3]">
+                <img
+                  src="./src/assets/images/girl_direwolf_character_1791649687401.jpg"
+                  alt="Aria & The Shadow Direwolf - Epic fantasy warrior and companion shifter character art by InkWink Studio"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+                  <span
+                    class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-black/75 backdrop-blur-md text-foreground border border-white/10"
+                    >Shifter & Dark Forest</span
+                  >
+                  <span
+                    class="text-xs font-mono font-bold px-2.5 py-1 rounded-full bg-primary text-primary-foreground shadow-md"
+                    >$80</span
+                  >
+                </div>
+              </div>
+              <div class="p-5 flex items-center justify-between gap-3 border-t border-border/70">
+                <div>
+                  <h3 class="font-display uppercase text-lg text-foreground">
+                    Aria & The Shadow Direwolf
+                  </h3>
+                  <p class="text-xs text-muted-foreground">Fantasy Character Illustration</p>
+                </div>
+                <button
+                  onclick="openLeadModal('Aria Character Art ($80)')"
+                  class="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
+                >
+                  ↗
+                </button>
+              </div>
+            </div>
+
+            <!-- Item 5: Concept Art -->
+            <div
+              class="glass rounded-xl border border-border overflow-hidden flex flex-col justify-between group hover:border-primary/50 transition-all"
+            >
+              <div class="relative overflow-hidden bg-black/40 aspect-[4/3]">
+                <img
+                  src="./src/assets/concept-gamer-bedroom.jpg"
+                  alt="Late Night Co-Op Session - Romantic comedy college sports interior environment concept art by InkWink Studio"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+                  <span
+                    class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-black/75 backdrop-blur-md text-foreground border border-white/10"
+                    >Scene Concept Art</span
+                  >
+                  <span
+                    class="text-xs font-mono font-bold px-2.5 py-1 rounded-full bg-primary text-primary-foreground shadow-md"
+                    >$100</span
+                  >
+                </div>
+              </div>
+              <div class="p-5 flex items-center justify-between gap-3 border-t border-border/70">
+                <div>
+                  <h3 class="font-display uppercase text-lg text-foreground">
+                    Late Night Co-Op Session
+                  </h3>
+                  <p class="text-xs text-muted-foreground">Promotional Concept Art</p>
+                </div>
+                <button
+                  onclick="openLeadModal('Scene Concept Art ($100)')"
+                  class="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
+                >
+                  ↗
+                </button>
+              </div>
+            </div>
+
+            <!-- Item 6: Sunset Concept Art -->
+            <div
+              class="glass rounded-xl border border-border overflow-hidden flex flex-col justify-between group hover:border-primary/50 transition-all"
+            >
+              <div class="relative overflow-hidden bg-black/40 aspect-[4/3]">
+                <img
+                  src="./src/assets/concept-sunset-rodeo.jpg"
+                  alt="Sunset Over Rodeo Valley - Western romance landscape and environmental scenic concept art by InkWink Studio"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+                  <span
+                    class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-black/75 backdrop-blur-md text-foreground border border-white/10"
+                    >Western Romance Vistas</span
+                  >
+                  <span
+                    class="text-xs font-mono font-bold px-2.5 py-1 rounded-full bg-primary text-primary-foreground shadow-md"
+                    >$100</span
+                  >
+                </div>
+              </div>
+              <div class="p-5 flex items-center justify-between gap-3 border-t border-border/70">
+                <div>
+                  <h3 class="font-display uppercase text-lg text-foreground">
+                    Sunset Over Rodeo Valley
+                  </h3>
+                  <p class="text-xs text-muted-foreground">Promotional Concept Art</p>
+                </div>
+                <button
+                  onclick="openLeadModal('Sunset Concept Art ($100)')"
+                  class="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
+                >
+                  ↗
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. WORDSMITH STUDIO (LAUNCH EMAILS) -->
+      <section id="book-launch-emails" class="py-24 border-t border-border bg-card/10 scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-6 space-y-12">
+          <div
+            class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-border pb-8"
+          >
+            <div class="space-y-3 max-w-2xl">
+              <span class="eyebrow text-primary">02 · Wordsmith Studio</span>
+              <h2 class="font-display uppercase text-4xl sm:text-5xl lg:text-6xl tracking-tight">
+                Book Launch / Promotional Email
+              </h2>
+              <p class="text-muted-foreground text-sm sm:text-base leading-relaxed">
+                A scroll-stopping cover wins the first impression. Spellbinding promotional emails
+                turn that momentum into verified 5-star reviews, Day-1 Kindle purchases, and
+                long-term superfans.
+              </p>
+            </div>
+            <button
+              onclick="openLeadModal('Book Launch Promotional Email Sequence')"
+              class="shrink-0 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary-hover transition-all shadow-md"
+            >
+              Get Launch Copywriting
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div
+              class="glass p-7 rounded-2xl border border-border flex flex-col justify-between space-y-6 hover:border-primary/40 transition-colors"
+            >
+              <div class="space-y-4">
+                <span
+                  class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary font-semibold"
+                  >6 Weeks Pre-Launch</span
+                >
+                <h3 class="font-display uppercase text-2xl text-foreground">
+                  ARC Team Recruitment
+                </h3>
+                <p class="text-xs text-primary font-medium">
+                  Subject: “I need 50 brave readers (by Friday)”
+                </p>
+                <p class="text-xs text-muted-foreground leading-relaxed">
+                  Enemies forced into a single tent · Fae courts with hidden blades · 50 verified
+                  Day-1 reviews
+                </p>
+              </div>
+              <div
+                class="pt-4 border-t border-border/80 flex items-center justify-between text-[11px] font-mono text-foreground/80"
+              >
+                <span>✓ ARC spots claimed in &lt; 24 hrs</span>
+              </div>
+            </div>
+
+            <div
+              class="glass p-7 rounded-2xl border border-border flex flex-col justify-between space-y-6 hover:border-primary/40 transition-colors"
+            >
+              <div class="space-y-4">
+                <span
+                  class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary font-semibold"
+                  >Launch Morning Blast</span
+                >
+                <h3 class="font-display uppercase text-2xl text-foreground">
+                  Release Day Sales Promo
+                </h3>
+                <p class="text-xs text-primary font-medium">
+                  Subject: “It’s here. (And everything is burning)”
+                </p>
+                <p class="text-xs text-muted-foreground leading-relaxed">
+                  Deep immersion prose · Direct Amazon 1-Click Buy button · High-momentum Kindle
+                  rank climbing
+                </p>
+              </div>
+              <div
+                class="pt-4 border-t border-border/80 flex items-center justify-between text-[11px] font-mono text-foreground/80"
+              >
+                <span>✓ 400+ Day-One purchases</span>
+              </div>
+            </div>
+
+            <div
+              class="glass p-7 rounded-2xl border border-border flex flex-col justify-between space-y-6 hover:border-primary/40 transition-colors"
+            >
+              <div class="space-y-4">
+                <span
+                  class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary font-semibold"
+                  >3 Weeks Pre-Launch</span
+                >
+                <h3 class="font-display uppercase text-2xl text-foreground">
+                  Trope-Driven Cover Reveal
+                </h3>
+                <p class="text-xs text-primary font-medium">
+                  Subject: “Look at his smirk. Tell me he isn't dangerous.”
+                </p>
+                <p class="text-xs text-muted-foreground leading-relaxed">
+                  Morally grey fae prince teaser · Vertical TikTok graphic · Pre-order conversion
+                  surge
+                </p>
+              </div>
+              <div
+                class="pt-4 border-t border-border/80 flex items-center justify-between text-[11px] font-mono text-foreground/80"
+              >
+                <span>✓ 180K+ Views on BookTok</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. PACKAGE PRICING -->
+      <section id="package-pricing" class="py-24 border-t border-border scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-6 space-y-12">
+          <div
+            class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-border pb-8"
+          >
+            <div class="space-y-3 max-w-2xl">
+              <span class="eyebrow text-primary">03 · All-In-One Suites</span>
+              <h2 class="font-display uppercase text-4xl sm:text-5xl lg:text-6xl tracking-tight">
+                Package Pricing
+              </h2>
+              <p class="text-muted-foreground text-sm sm:text-base leading-relaxed">
+                Curated bundles combining front/back covers, character casts, scene concept art, and
+                launch promotional emails at discounted flat rates.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+            <!-- Basic -->
+            <div
+              class="glass p-8 rounded-2xl border border-border flex flex-col justify-between space-y-6 hover:border-primary/50 transition-all"
+            >
+              <div class="space-y-6">
+                <span
+                  class="text-[11px] font-mono px-3 py-1 rounded-full bg-primary/15 text-primary border border-primary/30 font-semibold"
+                  >Essential Author Debut</span
+                >
+                <div>
+                  <h3 class="font-display uppercase text-3xl text-foreground">Basic Package</h3>
+                  <div class="mt-3 flex items-baseline gap-1.5">
+                    <span class="font-display text-5xl text-foreground font-bold">$200</span>
+                    <span class="text-xs text-muted-foreground font-mono">/ complete package</span>
+                  </div>
+                </div>
+                <p class="text-xs text-muted-foreground leading-relaxed">
+                  Everything needed to launch with professional visual presence.
+                </p>
+                <ul
+                  class="space-y-2.5 text-xs text-muted-foreground pt-4 border-t border-border/80"
+                >
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Beautiful front-cover art only
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Draw up to 2 characters of
+                    customer's choice
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Amazon KDP mobile 100px thumbnail
+                    optimization
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> 2 revision rounds + full
+                    commercial rights
+                  </li>
+                </ul>
+              </div>
+              <button
+                onclick="openLeadModal('Basic Package ($200)')"
+                class="w-full py-3 px-5 rounded-lg border border-border text-foreground hover:bg-white/5 font-semibold text-sm transition-colors cursor-pointer"
+              >
+                Choose Basic ($200)
+              </button>
+            </div>
+
+            <!-- Standard -->
+            <div
+              class="glass p-8 rounded-2xl border border-border flex flex-col justify-between space-y-6 hover:border-primary/50 transition-all"
+            >
+              <div class="space-y-6">
+                <span
+                  class="text-[11px] font-mono px-3 py-1 rounded-full bg-primary/15 text-primary border border-primary/30 font-semibold"
+                  >Digital & EBook Launch</span
+                >
+                <div>
+                  <h3 class="font-display uppercase text-3xl text-foreground">Standard Package</h3>
+                  <div class="mt-3 flex items-baseline gap-1.5">
+                    <span class="font-display text-5xl text-foreground font-bold">$300</span>
+                    <span class="text-xs text-muted-foreground font-mono">/ complete package</span>
+                  </div>
+                </div>
+                <p class="text-xs text-muted-foreground leading-relaxed">
+                  Complete publication package: front cover art, cast illustrations, and rich scene
+                  concept art.
+                </p>
+                <ul
+                  class="space-y-2.5 text-xs text-muted-foreground pt-4 border-t border-border/80"
+                >
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Beautiful front-cover art only
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Draw up to 4 characters of
+                    customer's choice
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Concept art illustrations of
+                    customer's favorite scenes
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Amazon KDP 300 DPI master files +
+                    2 revision rounds
+                  </li>
+                </ul>
+              </div>
+              <button
+                onclick="openLeadModal('Standard Package ($300)')"
+                class="w-full py-3 px-5 rounded-lg border border-border text-foreground hover:bg-white/5 font-semibold text-sm transition-colors cursor-pointer"
+              >
+                Choose Standard ($300)
+              </button>
+            </div>
+
+            <!-- Premium -->
+            <div
+              class="glass p-8 rounded-2xl border border-primary/50 bg-card/60 shadow-xl flex flex-col justify-between space-y-6 relative hover:border-primary transition-all"
+            >
+              <div class="space-y-6">
+                <div class="flex items-center justify-between">
+                  <span
+                    class="text-[11px] font-mono px-3 py-1 rounded-full bg-primary/20 text-primary border border-primary/30 font-semibold"
+                    >★ Recommended · Full Suite</span
+                  >
+                  <span
+                    class="text-[10px] font-mono px-2 py-0.5 rounded bg-primary text-black font-bold uppercase"
+                    >Most Popular</span
+                  >
+                </div>
+                <div>
+                  <h3 class="font-display uppercase text-3xl text-foreground">Premium Package</h3>
+                  <div class="mt-3 flex items-baseline gap-1.5">
+                    <span class="font-display text-5xl text-foreground font-bold">$500</span>
+                    <span class="text-xs text-muted-foreground font-mono">/ complete package</span>
+                  </div>
+                </div>
+                <p class="text-xs text-muted-foreground leading-relaxed">
+                  The ultimate author debut: full wraparound front & back cover, 6 characters,
+                  concept scene art, and high-converting launch emails.
+                </p>
+                <ul
+                  class="space-y-2.5 text-xs text-muted-foreground pt-4 border-t border-border/80"
+                >
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Complete book cover art (both
+                    front & back covers)
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Draw up to 6 characters of
+                    customer's choice
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> Promotional scene concept art for
+                    marketing
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> High-converting promotional email
+                    sequence for launch
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary font-bold">✓</span> 300 DPI master files + 2 revision
+                    rounds + 100% commercial rights
+                  </li>
+                </ul>
+              </div>
+              <button
+                onclick="openLeadModal('Premium Package ($500)')"
+                class="w-full py-3.5 px-5 rounded-lg bg-primary text-primary-foreground font-bold text-sm hover:bg-primary-hover shadow-lg transition-all cursor-pointer"
+              >
+                Choose Premium ($500)
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. AUTO-PLAYING TESTIMONIAL SLIDER SECTION -->
+      <section id="testimonials" class="py-24 border-t border-border bg-card/40 scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-6 space-y-10">
+          <div
+            class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-border pb-8"
+          >
+            <div class="space-y-3 max-w-2xl">
+              <span class="eyebrow text-primary">04 · Verified Reviews</span>
+              <h2 class="font-display uppercase text-4xl sm:text-5xl lg:text-6xl tracking-tight">
+                Author Testimonials
+              </h2>
+              <p class="text-muted-foreground text-sm sm:text-base leading-relaxed">
+                See what indie Fantasy and Romantasy authors say about our book covers, character
+                art, and promotional launch emails on Amazon KDP.
+              </p>
+            </div>
+            <!-- Carousel Controls -->
+            <div class="flex items-center gap-2 self-start md:self-auto">
+              <button
+                id="sliderPlayPauseBtn"
+                onclick="toggleSliderPlayPause()"
+                class="px-3 py-1.5 rounded-lg border border-border glass text-xs font-mono text-muted-foreground hover:text-white transition-colors cursor-pointer"
+              >
+                ❚❚ Pause
+              </button>
+              <button
+                onclick="prevSlide()"
+                class="p-2 rounded-lg border border-border glass text-foreground hover:border-primary/40 transition-colors cursor-pointer"
+                aria-label="Previous Slide"
+              >
+                ❮
+              </button>
+              <button
+                onclick="nextSlide()"
+                class="p-2 rounded-lg border border-border glass text-foreground hover:border-primary/40 transition-colors cursor-pointer"
+                aria-label="Next Slide"
+              >
+                ❯
+              </button>
+            </div>
+          </div>
+
+          <!-- Carousel Slider Container -->
+          <div
+            class="relative overflow-hidden"
+            id="testimonialCarouselTrackWrapper"
+            onmouseenter="pauseSlider()"
+            onmouseleave="resumeSlider()"
+          >
+            <div
+              id="testimonialCarouselTrack"
+              class="flex transition-transform duration-500 ease-out"
+            >
+              <!-- Slide 1 -->
+              <div class="w-full md:w-1/2 shrink-0 p-3">
+                <div
+                  class="glass p-8 rounded-2xl border border-border flex flex-col justify-between h-full space-y-6"
+                >
+                  <div class="space-y-4">
+                    <div class="flex items-center justify-between">
+                      <span class="text-primary font-bold tracking-widest text-sm">★★★★★</span>
+                      <span
+                        class="text-[11px] font-mono px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20"
+                        >Fantasy Cover Art ($150)</span
+                      >
+                    </div>
+                    <p class="font-display uppercase text-xl text-foreground">
+                      “I got a cover art made for my fantasy novel from them, and it turned out to
+                      be a great book cover.”
+                    </p>
+                    <p class="text-xs text-muted-foreground leading-relaxed">
+                      The dynamic lighting and the heroine's silhouette made it instantly pop on
+                      Amazon KDP search results. Within 48 hours, organic click-through rate doubled
+                      and page reads surged.
+                    </p>
+                  </div>
+                  <div class="pt-4 border-t border-border/70 flex items-center justify-between">
+                    <div>
+                      <p class="text-sm font-semibold text-foreground">Robert Vance</p>
+                      <p class="text-xs text-muted-foreground">
+                        The Ashen Blade: Chronicles of Eldoria
+                      </p>
+                    </div>
+                    <span class="text-xs font-mono text-primary font-semibold"
+                      >2.4x KDP CTR Lift</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="w-full md:w-1/2 shrink-0 p-3">
+                <div
+                  class="glass p-8 rounded-2xl border border-border flex flex-col justify-between h-full space-y-6"
+                >
+                  <div class="space-y-4">
+                    <div class="flex items-center justify-between">
+                      <span class="text-primary font-bold tracking-widest text-sm">★★★★★</span>
+                      <span
+                        class="text-[11px] font-mono px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20"
+                        >Character Art ($80)</span
+                      >
+                    </div>
+                    <p class="font-display uppercase text-xl text-foreground">
+                      “I commissioned character art for my morally grey fae hero, and it turned out
+                      to be an incredible illustration.”
+                    </p>
+                    <p class="text-xs text-muted-foreground leading-relaxed">
+                      They captured his dark feathered wings and smug, lethal smirk with uncanny
+                      precision. When I posted the first character teaser reel on BookTok, it went
+                      viral with over 180,000 views!
+                    </p>
+                  </div>
+                  <div class="pt-4 border-t border-border/70 flex items-center justify-between">
+                    <div>
+                      <p class="text-sm font-semibold text-foreground">Althea Thorne</p>
+                      <p class="text-xs text-muted-foreground">A Crown of Thorn and Cinders</p>
+                    </div>
+                    <span class="text-xs font-mono text-primary font-semibold"
+                      >180K+ BookTok Views</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="w-full md:w-1/2 shrink-0 p-3">
+                <div
+                  class="glass p-8 rounded-2xl border border-border flex flex-col justify-between h-full space-y-6"
+                >
+                  <div class="space-y-4">
+                    <div class="flex items-center justify-between">
+                      <span class="text-primary font-bold tracking-widest text-sm">★★★★★</span>
+                      <span
+                        class="text-[11px] font-mono px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20"
+                        >Launch Promo Emails</span
+                      >
+                    </div>
+                    <p class="font-display uppercase text-xl text-foreground">
+                      “The promotional emails written for my new book launch achieved great results
+                      beyond what I imagined.”
+                    </p>
+                    <p class="text-xs text-muted-foreground leading-relaxed">
+                      We deployed their 4-part ARC recruitment and launch week email sequence. On
+                      release morning, the launch email drove over 400 Kindle purchases in the first
+                      day. Top 50 in Epic Fantasy!
+                    </p>
+                  </div>
+                  <div class="pt-4 border-t border-border/70 flex items-center justify-between">
+                    <div>
+                      <p class="text-sm font-semibold text-foreground">Marcus Sterling</p>
+                      <p class="text-xs text-muted-foreground">The Shadow Regent (Book 1)</p>
+                    </div>
+                    <span class="text-xs font-mono text-primary font-semibold"
+                      >Top 50 Amazon Rank</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="w-full md:w-1/2 shrink-0 p-3">
+                <div
+                  class="glass p-8 rounded-2xl border border-border flex flex-col justify-between h-full space-y-6"
+                >
+                  <div class="space-y-4">
+                    <div class="flex items-center justify-between">
+                      <span class="text-primary font-bold tracking-widest text-sm">★★★★★</span>
+                      <span
+                        class="text-[11px] font-mono px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20"
+                        >Email Sequences</span
+                      >
+                    </div>
+                    <p class="font-display uppercase text-xl text-foreground">
+                      “Their promotional emails produced extraordinary results and record 52% open
+                      rates.”
+                    </p>
+                    <p class="text-xs text-muted-foreground leading-relaxed">
+                      The forced-proximity teaser and the 72-hour countdown emails turned quiet
+                      subscribers into passionate day-one buyers. Over $4,200 in launch royalties!
+                    </p>
+                  </div>
+                  <div class="pt-4 border-t border-border/70 flex items-center justify-between">
+                    <div>
+                      <p class="text-sm font-semibold text-foreground">Jennifer Morales</p>
+                      <p class="text-xs text-muted-foreground">Court of Whisper and Flame</p>
+                    </div>
+                    <span class="text-xs font-mono text-primary font-semibold"
+                      >$4,200+ Royalties</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide Dots Indicators -->
+          <div class="flex items-center justify-between pt-2">
+            <div class="flex items-center gap-2" id="sliderDotsContainer"></div>
+            <span class="text-xs text-muted-foreground font-mono">Hover card to pause</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. FAQ SECTION -->
+      <section
+        id="questions"
+        class="max-w-3xl mx-auto px-6 py-24 border-t border-border scroll-mt-20"
+      >
+        <h2 class="font-display uppercase text-5xl tracking-tight text-center">Questions</h2>
+        <div class="mt-8 divide-y divide-border border-y border-border">
+          <details class="group py-5" open>
+            <summary
+              class="flex justify-between items-center gap-4 cursor-pointer font-semibold list-none"
+            >
+              <span>I'm on a tight indie budget. Is this worth it?</span>
+              <span class="text-primary text-xl group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="text-muted-foreground mt-3 text-sm leading-relaxed">
+              A cover and launch sequence are the two assets that keep selling for the entire life
+              of your book. We offer packages sized for debut authors, starting at flat rates with
+              transparent pricing.
+            </p>
+          </details>
+
+          <details class="group py-5">
+            <summary
+              class="flex justify-between items-center gap-4 cursor-pointer font-semibold list-none"
+            >
+              <span>Will the cover and concept art actually fit my genre?</span>
+              <span class="text-primary text-xl group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="text-muted-foreground mt-3 text-sm leading-relaxed">
+              Yes. Before we sketch, we study the current top 100 in your exact subgenre. Your art
+              will feel at home beside genre bestsellers while commanding instant click-through on
+              Amazon KDP.
+            </p>
+          </details>
+
+          <details class="group py-5">
+            <summary
+              class="flex justify-between items-center gap-4 cursor-pointer font-semibold list-none"
+            >
+              <span>What do the Book Launch emails include?</span>
+              <span class="text-primary text-xl group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="text-muted-foreground mt-3 text-sm leading-relaxed">
+              Our promotional emails cover Advance Reader Copy (ARC) recruitment calls, trope-coded
+              cover reveals, countdown teasers, and launch-day 1-Click Buy sequences written in your
+              voice.
+            </p>
+          </details>
+
+          <details class="group py-5">
+            <summary
+              class="flex justify-between items-center gap-4 cursor-pointer font-semibold list-none"
+            >
+              <span>What if I don't love the first concept?</span>
+              <span class="text-primary text-xl group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="text-muted-foreground mt-3 text-sm leading-relaxed">
+              Every art piece and package includes two full concept rounds and revisions. We refine
+              the visual hierarchy until you are completely thrilled with the final deliverable.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- 6. CLOSING CTA -->
+      <section
+        class="py-24 border-t border-border text-center bg-gradient-to-b from-transparent to-primary/5"
+      >
+        <div class="max-w-4xl mx-auto px-6 space-y-6">
+          <h2 class="font-display uppercase text-5xl sm:text-6xl lg:text-7xl tracking-tight">
+            Your Story Deserves to Be Seen
+          </h2>
+          <p class="text-muted-foreground text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+            Book a free launch call this week and receive a complimentary cover critique of your
+            current or planned design. Bring your draft — leave with a plan to fill your launch with
+            readers.
+          </p>
+          <div class="pt-4">
+            <button
+              onclick="openLeadModal('Closing CTA Booking')"
+              class="px-8 py-4 rounded-lg bg-primary text-primary-foreground font-bold text-sm uppercase tracking-wider hover:bg-primary-hover shadow-xl hover:scale-105 transition-all cursor-pointer"
+            >
+              Book Your Free Launch Call
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-border bg-card/60">
+      <div class="max-w-6xl mx-auto px-6 py-16 space-y-12">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+          <div class="md:col-span-5 space-y-4">
+            <a href="#home" class="font-display text-2xl tracking-wide flex items-center gap-1">
+              <span>INK</span>
+              <span class="text-primary">WINK</span>
+            </a>
+            <p class="text-sm text-muted-foreground max-w-sm leading-relaxed">
+              The hybrid creative studio crafting genre-true fantasy & romantasy book covers,
+              promotional book launch sequences, and high-impact author suites for Amazon KDP.
+            </p>
+            <div class="pt-2">
+              <p class="eyebrow text-muted-foreground mb-3">Connect With Us</p>
+              <div class="flex items-center gap-3">
+                <!-- Instagram -->
+                <a
+                  href="https://www.instagram.com/inkwinkk.studio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="p-2.5 rounded-lg glass border border-border text-muted-foreground hover:text-[#E4405F] hover:border-[#E4405F]/40 transition-colors"
+                  title="Instagram"
+                >
+                  <svg class="w-5 h-5 fill-currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                    />
+                  </svg>
+                </a>
+                <!-- Facebook -->
+                <a
+                  href="https://www.facebook.com/profile.php?id=61578688896807"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="p-2.5 rounded-lg glass border border-border text-muted-foreground hover:text-[#1877F2] hover:border-[#1877F2]/40 transition-colors"
+                  title="Facebook"
+                >
+                  <svg class="w-5 h-5 fill-currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.667 5H18V0h-3.808C10.595 0 9 1.583 9 4.615V8z"
+                    />
+                  </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a
+                  href="https://www.linkedin.com/company/ink-winkk/home/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="p-2.5 rounded-lg glass border border-border text-muted-foreground hover:text-[#0A66C2] hover:border-[#0A66C2]/40 transition-colors"
+                  title="LinkedIn"
+                >
+                  <svg class="w-5 h-5 fill-currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                    />
+                  </svg>
+                </a>
+                <!-- Email -->
+                <a
+                  href="mailto:inkwinkk.studio@gmail.com"
+                  class="p-2.5 rounded-lg glass border border-border text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors"
+                  title="Email Us"
+                >
+                  <svg class="w-5 h-5 fill-none stroke-currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-4 space-y-3">
+            <p class="eyebrow text-primary">Quick Navigation</p>
+            <ul class="space-y-2 text-sm text-muted-foreground">
+              <li><a href="#home" class="hover:text-foreground transition-colors">Home</a></li>
+              <li>
+                <a href="#fantasy-art-studio" class="hover:text-foreground transition-colors"
+                  >Fantasy Art Studio</a
+                >
+              </li>
+              <li>
+                <a href="#book-launch-emails" class="hover:text-foreground transition-colors"
+                  >Book Launch Emails</a
+                >
+              </li>
+              <li>
+                <a href="#package-pricing" class="hover:text-foreground transition-colors"
+                  >Package Pricing ($200–$500)</a
+                >
+              </li>
+              <li>
+                <a href="#testimonials" class="hover:text-foreground transition-colors"
+                  >Author Testimonials</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="md:col-span-3 space-y-3">
+            <p class="eyebrow text-primary">Direct Inquiries</p>
+            <p class="text-sm text-muted-foreground">
+              Booking custom covers, character art & launch copy for upcoming releases.
+            </p>
+            <div class="pt-1">
+              <a
+                href="mailto:inkwinkk.studio@gmail.com"
+                class="inline-flex items-center gap-1.5 text-sm text-foreground hover:text-primary transition-colors font-medium"
+              >
+                <span>inkwinkk.studio@gmail.com</span>
+                <span>↗</span>
+              </a>
+            </div>
+            <p class="text-xs text-muted-foreground">Average response time: under 24 hours.</p>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-border/60 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground"
+        >
+          <p>© 2026 InkWink Studio. All rights reserved.</p>
+          <div class="eyebrow text-[10px] text-muted-foreground/80">
+            Fantasy Art · Promotional Launch Emails · Package Pricing · Verified Results
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button
+      id="backToTopBtn"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      aria-label="Back to Top"
+      class="fixed bottom-20 right-6 z-40 p-3 rounded-full glass border border-border text-foreground hover:border-primary hover:text-primary transition-all shadow-xl hide cursor-pointer"
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 10l7-7m0 0l7 7m-7-7v18"
+        ></path>
+      </svg>
+    </button>
+
+    <!-- Interactive WhatsApp Floating Widget -->
+    <div class="wa-widget-container">
+      <!-- Speech Bubble Pop-up Card -->
+      <div class="wa-popup-box" id="waPopup">
+        <div class="wa-popup-header">
+          <strong>InkWink Studio</strong>
+          <span onclick="toggleWaPopup()" style="cursor: pointer; font-weight: bold">✕</span>
+        </div>
+        <div class="wa-popup-body">
+          <p>👋 Hi there! Need Fantasy Cover Art or Email Sequences? Let's chat on WhatsApp!</p>
+          <a
+            href="https://api.whatsapp.com/send?phone=15098815459&text=Hi%20InkWink%20Studio,%20I%20visited%20your%20website%20and%20would%20like%20to%20discuss%20a%20project!"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="wa-start-chat-btn"
+          >
+            Start Chat
+          </a>
+        </div>
+      </div>
+
+      <!-- Floating Trigger Button -->
+      <button
+        class="inkwink-whatsapp-btn"
+        onclick="toggleWaPopup()"
+        aria-label="Open WhatsApp Chat"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          fill="currentColor"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.099-.834-.308-1.588-.98-.588-.524-.987-1.17-1.103-1.368-.115-.198-.012-.304.087-.403.088-.088.197-.232.296-.348.1-.116.133-.197.198-.33.065-.133.033-.248-.017-.347-.05-.099-.445-1.073-.61-1.47-.16-.388-.323-.335-.445-.341-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.17-.478 1.338-.94.165-.463.165-.859.115-.942-.049-.082-.182-.132-.38-.23z"
+          />
+        </svg>
+        <span>Chat on WhatsApp</span>
+      </button>
+    </div>
+
+    <!-- Contact Lead Modal (Web3Forms Automated) -->
+    <div
+      id="leadModal"
+      class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto"
+    >
+      <div
+        class="glass max-w-xl w-full my-8 p-6 sm:p-8 rounded-2xl border border-border shadow-2xl relative bg-card text-foreground"
+        onclick="event.stopPropagation()"
+      >
+        <button
+          onclick="closeLeadModal()"
+          class="absolute top-5 right-5 p-2 rounded-full border border-border text-muted-foreground hover:text-foreground cursor-pointer"
+        >
+          ✕
+        </button>
+
+        <div id="modalFormContent">
+          <div class="space-y-2 pr-6">
+            <span class="eyebrow text-primary">Let's Build Your World</span>
+            <h2 class="font-display uppercase text-3xl sm:text-4xl tracking-tight">
+              Get In Touch With InkWink
+            </h2>
+            <p class="text-muted-foreground text-xs sm:text-sm">
+              Tell us about your fantasy novel, release date, and which package fits your launch.
+            </p>
+          </div>
+
+          <form id="leadForm" class="mt-6 space-y-4">
+            <input type="hidden" name="access_key" value="ec208508-c6c5-4d14-ba69-9bcceb1c121b" />
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold mb-1 text-foreground/90"
+                  >Your Name / Pen Name</label
+                >
+                <input
+                  id="leadName"
+                  name="name"
+                  required
+                  type="text"
+                  placeholder="e.g. Robin Thorne"
+                  class="w-full px-3.5 py-2.5 rounded-lg bg-background border border-border text-foreground text-sm focus:outline-none focus:border-primary"
+                />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1 text-foreground/90"
+                  >Email Address</label
+                >
+                <input
+                  id="leadEmail"
+                  name="email"
+                  required
+                  type="email"
+                  placeholder="robin@authorworld.com"
+                  class="w-full px-3.5 py-2.5 rounded-lg bg-background border border-border text-foreground text-sm focus:outline-none focus:border-primary"
+                />
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold mb-1 text-foreground/90"
+                  >Subgenre & Tropes</label
+                >
+                <input
+                  id="leadSubgenre"
+                  name="subgenre"
+                  type="text"
+                  placeholder="e.g. Romantasy, Fae Courts"
+                  class="w-full px-3.5 py-2.5 rounded-lg bg-background border border-border text-foreground text-sm focus:outline-none focus:border-primary"
+                />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1 text-foreground/90"
+                  >Interested Service</label
+                >
+                <select
+                  id="leadService"
+                  name="service"
+                  class="w-full px-3.5 py-2.5 rounded-lg bg-background border border-border text-foreground text-sm focus:outline-none focus:border-primary"
+                >
+                  <option value="Author Suite Package ($200–$500)">
+                    Author Suite Package ($200–$500)
+                  </option>
+                  <option value="Fantasy Book Cover Art ($150)">
+                    Fantasy Book Cover Art ($150)
+                  </option>
+                  <option value="Scene Concept Art ($100)">Scene Concept Art ($100)</option>
+                  <option value="Character Art Illustration ($80)">
+                    Character Art Illustration ($80)
+                  </option>
+                  <option value="Book Launch Promotional Emails">
+                    Book Launch Promotional Emails
+                  </option>
+                  <option value="Custom Creative Request">Custom Creative Request</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold mb-1 text-foreground/90"
+                >Your Vision / Launch Details</label
+              >
+              <textarea
+                id="leadMessage"
+                name="message"
+                required
+                rows="3"
+                placeholder="Tell us about your characters, color palette, or target launch date..."
+                class="w-full px-3.5 py-2.5 rounded-lg bg-background border border-border text-foreground text-sm focus:outline-none focus:border-primary resize-none"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              id="submitLeadBtn"
+              class="w-full py-3.5 px-6 rounded-lg bg-primary text-primary-foreground font-bold text-sm hover:bg-primary-hover shadow-md cursor-pointer transition-all"
+            >
+              Submit Inquiry
+            </button>
+          </form>
+        </div>
+
+        <!-- Confirmation message -->
+        <div id="modalSuccessContent" class="hidden py-8 text-center space-y-4">
+          <div
+            class="w-14 h-14 mx-auto rounded-full bg-primary/20 text-primary border border-primary/40 flex items-center justify-center text-2xl font-bold"
+          >
+            ✓
+          </div>
+          <h3 class="font-display uppercase text-3xl">Thank You!</h3>
+          <p class="text-muted-foreground text-sm max-w-md mx-auto">
+            Your inquiry has been received. Our team will review your notes and reply directly to
+            your email within 24 hours.
+          </p>
+          <button
+            onclick="closeLeadModal()"
+            class="px-6 py-2.5 rounded-lg border border-border text-sm font-semibold hover:bg-white/5 cursor-pointer"
+          >
+            Done
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC (WhatsApp, Slider, Web3Forms Automation) -->
+    <script>
+      // 1. WhatsApp Popup Toggle
+      function toggleWaPopup() {
+        var popup = document.getElementById("waPopup");
+        popup.style.display = popup.style.display === "block" ? "none" : "block";
+      }
+
+      // 3. Back to Top Scroll Detection
+      window.addEventListener("scroll", function () {
+        var btn = document.getElementById("backToTopBtn");
+        if (window.scrollY > 300) {
+          btn.classList.remove("hide");
+          btn.classList.add("show");
+        } else {
+          btn.classList.remove("show");
+          btn.classList.add("hide");
+        }
+      });
+
+      // 4. Contact Lead Modal Controls
+      function openLeadModal(serviceName) {
+        var modal = document.getElementById("leadModal");
+        var serviceSelect = document.getElementById("leadService");
+        if (serviceName && serviceSelect) {
+          for (var i = 0; i < serviceSelect.options.length; i++) {
+            if (
+              serviceSelect.options[i].value.includes(serviceName) ||
+              serviceName.includes(serviceSelect.options[i].value)
+            ) {
+              serviceSelect.selectedIndex = i;
+              break;
+            }
+          }
+        }
+        document.getElementById("modalFormContent").classList.remove("hidden");
+        document.getElementById("modalSuccessContent").classList.add("hidden");
+        modal.classList.remove("hidden");
+      }
+
+      function closeLeadModal() {
+        // Trigger abandoned lead tracking if fields filled but not submitted
+        checkModalAbandonedLead();
+        document.getElementById("leadModal").classList.add("hidden");
+      }
+
+      // 5. Testimonial Carousel Auto-Play Logic
+      var currentSlideIndex = 0;
+      var totalSlides = 4;
+      var isSliderPlaying = true;
+      var sliderInterval = null;
+
+      function renderSlideDots() {
+        var dotsContainer = document.getElementById("sliderDotsContainer");
+        if (!dotsContainer) return;
+        dotsContainer.innerHTML = "";
+        for (var i = 0; i < totalSlides; i++) {
+          var dot = document.createElement("button");
+          dot.className =
+            i === currentSlideIndex
+              ? "h-2 w-8 rounded-full bg-primary transition-all cursor-pointer"
+              : "h-2 w-2 rounded-full bg-muted-foreground/30 hover:bg-muted-foreground transition-all cursor-pointer";
+          dot.setAttribute("aria-label", "Slide " + (i + 1));
+          (function (index) {
+            dot.onclick = function () {
+              goToSlide(index);
+            };
+          })(i);
+          dotsContainer.appendChild(dot);
+        }
+      }
+
+      function updateSlidePosition() {
+        var track = document.getElementById("testimonialCarouselTrack");
+        if (!track) return;
+        // On desktop md screens, each card is 50%, mobile 100%
+        var isDesktop = window.innerWidth >= 768;
+        var shiftPercent = isDesktop ? currentSlideIndex * 50 : currentSlideIndex * 100;
+        track.style.transform = "translateX(-" + shiftPercent + "%)";
+        renderSlideDots();
+      }
+
+      function nextSlide() {
+        currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+        updateSlidePosition();
+      }
+
+      function prevSlide() {
+        currentSlideIndex = (currentSlideIndex - 1 + totalSlides) % totalSlides;
+        updateSlidePosition();
+      }
+
+      function goToSlide(index) {
+        currentSlideIndex = index;
+        updateSlidePosition();
+      }
+
+      function startSliderAutoPlay() {
+        if (sliderInterval) clearInterval(sliderInterval);
+        sliderInterval = setInterval(function () {
+          if (isSliderPlaying) nextSlide();
+        }, 4500);
+      }
+
+      function pauseSlider() {
+        isSliderPlaying = false;
+        updatePlayPauseButton();
+      }
+
+      function resumeSlider() {
+        isSliderPlaying = true;
+        updatePlayPauseButton();
+      }
+
+      function toggleSliderPlayPause() {
+        isSliderPlaying = !isSliderPlaying;
+        updatePlayPauseButton();
+      }
+
+      function updatePlayPauseButton() {
+        var btn = document.getElementById("sliderPlayPauseBtn");
+        if (!btn) return;
+        btn.textContent = isSliderPlaying ? "❚❚ Pause" : "▶ Play";
+      }
+
+      renderSlideDots();
+      startSliderAutoPlay();
+      window.addEventListener("resize", updateSlidePosition);
+
+      // 6. Web3Forms Automation & Abandoned Lead Tracking
+      (function () {
+        var ACCESS_KEY = "ec208508-c6c5-4d14-ba69-9bcceb1c121b";
+        var WEB3FORMS_URL = "https://api.web3forms.com/submit";
+
+        var form = document.getElementById("leadForm");
+        var isSubmitted = false;
+        var partialCaptured = false;
+
+        function sendPayload(data, subject) {
+          var payload = new FormData();
+          payload.append("access_key", ACCESS_KEY);
+          payload.append("subject", subject);
+          if (data.name) payload.append("from_name", data.name);
+          if (data.email) payload.append("replyto", data.email);
+          for (var key in data) {
+            if (data.hasOwnProperty(key)) {
+              payload.append(key, data[key]);
+            }
+          }
+          fetch(WEB3FORMS_URL, {
+            method: "POST",
+            body: payload,
+            keepalive: true,
+          }).catch(function (err) {
+            console.log("Lead sync error:", err);
+          });
+        }
+
+        function extractFormData() {
+          if (!form) return {};
+          var formData = new FormData(form);
+          var dataObj = {};
+          formData.forEach(function (value, key) {
+            dataObj[key] = value;
+          });
+          return dataObj;
+        }
+
+        window.checkModalAbandonedLead = function () {
+          if (isSubmitted || partialCaptured) return;
+          var data = extractFormData();
+          var hasContactInfo = Object.values(data).some(function (val) {
+            return typeof val === "string" && val.trim().length > 2;
+          });
+          if (hasContactInfo) {
+            sendPayload(data, "⚠️ ABANDONED LEAD (User closed modal without submitting)");
+            partialCaptured = true;
+          }
+        };
+
+        // Capture Abandoned Leads when user closes tab or navigates away
+        window.addEventListener("beforeunload", function () {
+          if (isSubmitted || partialCaptured) return;
+          var data = extractFormData();
+          var hasContactInfo = Object.values(data).some(function (val) {
+            return typeof val === "string" && val.trim().length > 2;
+          });
+          if (hasContactInfo) {
+            sendPayload(data, "⚠️ ABANDONED LEAD (User left without submitting)");
+            partialCaptured = true;
+          }
+        });
+
+        // Normal Complete Submission
+        if (form) {
+          form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            isSubmitted = true;
+            var submitBtn = document.getElementById("submitLeadBtn");
+            if (submitBtn) {
+              submitBtn.textContent = "Sending Inquiry...";
+              submitBtn.disabled = true;
+            }
+            var data = extractFormData();
+            sendPayload(data, "✅ NEW COMPLETE LEAD - InkWink Studio");
+
+            setTimeout(function () {
+              document.getElementById("modalFormContent").classList.add("hidden");
+              document.getElementById("modalSuccessContent").classList.remove("hidden");
+              form.reset();
+              if (submitBtn) {
+                submitBtn.textContent = "Submit Inquiry";
+                submitBtn.disabled = false;
+              }
+            }, 600);
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>
